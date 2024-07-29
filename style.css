@@ -150,16 +150,7 @@ footer {
 }
 
 .container {
-    width: 100%;
-    overflow: auto; 
+    display: flex;
+	justify-content: space-around;
 }
 
-.first-column {
-    float: left; 
-	width: 50%; 
-}
-
-.second-column {
-    float: right; 
-	width: 50%; 
-}
